@@ -82,7 +82,7 @@ export default {
     icons: [
       {
           icon: "mdi-facebook",
-          path: "www.google.com"
+          path: "https://www.google.com"
       },
       {
           icon: "mdi-twitter",
