@@ -1,5 +1,5 @@
 <template>
-  <v-sheet :elevation="24" :shaped="true" height="100%" tile>
+  <v-sheet height="512px" tile>
     <v-row v-if="showFlag" :key="NaN" >
       
       <v-col colm="10" style="text-align:start;">
@@ -22,7 +22,7 @@
       <v-col colm="2" style="text-align:end;">
         <div class="image">
           <a  :href="show.url" target="_blank">
-            <img :src="show.image.original" contain height="488px" />
+            <img :src="show.image.original" contain height="500px" />
           </a>
       </div>
       </v-col>
@@ -114,7 +114,6 @@ export default {
 .cardText {
   overflow: auto;
   max-height:400px;
-  background-color: white;
   padding-left:20px;
   font-size: 20px;
 }
