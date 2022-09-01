@@ -1,4 +1,4 @@
-# projekt_anime_manga
+# project
 
 ## Project setup
 ```

@@ -116,7 +116,6 @@ export default {
   max-height:400px;
   background-color: white;
   padding-left:20px;
-  padding-bottom: 10px;
   font-size: 20px;
 }
 
